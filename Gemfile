@@ -8,14 +8,14 @@ gem 'rails', '3.1.3'
 gem 'awesome_print'
 gem 'devise'
 gem 'omniauth'
-gem 'omniauth-oauth2'
+gem 'omniauth-oauth2', '>= 1.2.0'
 gem 'omniauth-storenvy'
 gem 'haml-rails'
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.1.5'
+  gem 'sass-rails', '~> 3.1.5'
   gem 'coffee-rails', '~> 3.1.1'
   gem 'uglifier', '>= 1.0.3'
 end
