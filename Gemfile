@@ -1,26 +1,26 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.3'
+gem 'rails', '6.1.7.3'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'awesome_print'
-gem 'devise'
-gem 'omniauth'
-gem 'omniauth-oauth2'
+gem 'devise', '>= 4.7.1'
+gem 'omniauth', '>= 2.0.0'
+gem 'omniauth-oauth2', '>= 1.7.1'
 gem 'omniauth-storenvy'
-gem 'haml-rails'
+gem 'haml-rails', '>= 1.0.0'
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.1.5'
-  gem 'coffee-rails', '~> 3.1.1'
-  gem 'uglifier', '>= 1.0.3'
+  gem 'sass-rails', '~> 5.0.8'
+  gem 'coffee-rails', '~> 4.2.2'
+  gem 'uglifier', '>= 2.7.2'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.4.0'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -41,7 +41,7 @@ end
 
 group :development do
   gem 'sqlite3'
-  gem 'quiet_assets'
+  gem 'quiet_assets', '>= 1.0.2'
 end
 
 group :production do
