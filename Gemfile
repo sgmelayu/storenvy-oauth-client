@@ -8,7 +8,7 @@ gem 'rails', '3.1.3'
 gem 'awesome_print'
 gem 'devise'
 gem 'omniauth'
-gem 'omniauth-oauth2'
+gem 'omniauth-oauth2', '>= 1.2.0'
 gem 'omniauth-storenvy'
 gem 'haml-rails'
 
